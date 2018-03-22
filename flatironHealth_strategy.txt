@@ -1,0 +1,26 @@
+Which combination/interaction of one-two-three factors (service line, carrier, denial type) caused the greatest difference h/h as measured by both proportional change (for that combination h/h) and nominal change (dollar difference in claims for that combination h/h)? This study can be performed in levels/stages: if the underlying components are not uniform in their distribution of proportion and nominal difference h/h, I apply the analysis to the lower level, and so on. We can measure change on three different metrics, in my opinion: a) h/h difference in nominal dollars; b) h/h proportional change; c) h/h difference of freq of denials. Which of these metrics should I focus on?
+
+The proper iteration to the analysis, I believe, follow one of two workflows:
+denial type proportional $ changes and absolute $ changes -> carrier -> service line
+analyze service line -> analyze carrier -> analyze denial types
+
+I consider the denial type to be a quasi dependent variable. What do you think?
+
+After we identify the most prominent changes from one group (EITHER service line OR Carrier); look at the distribution of h/h change among the component service line or carrier (the factor excluded from the higher level study). We expect uniform changes in h/h metrics of the underlying components... if this is not the case, will do a deeper dive into the proceeding level below.
+
+Have to decide what is in the control of the company: denial type and level of detail when filing claims for particular servie lines. Claim amount and insurance carrier are more random because the mix/ranking of patients' insurance carriers and claim amounts can change. In order to provde this, would have to dispatch the volatility we observe with BCBS, UHC, Medicare and Medicaid.
+
+My path will be:
+1) service line -> denial type
+2) denial type -> service line
+
+My objective: Recommend the combination of factors that when addressed could decrease denials. We know that total denial dollars were significantly reduced for 'RadOnc' and 'Radiology' and went up a bit for 'MedOnc'. What combinations of factors were responsible for that decrease? If present, why didn't that combination deliver similar results in the other service line?
+
+look into plt.setp(axis_object.get_xticklabels()
+seaborn facetGrid
+
+'Service Lines of interest:
+'MedOnc','RadOnc','Radiology'
+
+column names: ['Month of Service', 'Denied Amount', 'Insurance Name', 'Service Line', 'Denial Type']
+

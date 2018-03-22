@@ -1,0 +1,23 @@
+Critical points to discuss during the presentation:
+
+- highlight changes h/h as calculated and displayed on plots
+- highlight possible causes for the changes we are seeing
+- highlight the business/qualitative aspects to the business and how it can inform historical performance and next steps.... don't bring up the insurance perspective
+- highlight the path I believe is the most likely explanation and show why
+- make recommendations
+
+
+select slides/figures and export these
+draft text
+qualify the recommendations
+
+emphasize all trends: both increases and decreases
+Need to produce some overall stats (across periods)
+HIgh level stats compared period-period
+
+Clear concise introduction to the research
+- macro stats: basis of insrer, denial type and service line
+There was also a process implemented HIgh level stats compared period-period
+
+
+Make a proportions table for service line and denial type... if the proportions stayed flat h/h, then we know that the firm targeted the service line; if not, then we know they targeted particular denial types.

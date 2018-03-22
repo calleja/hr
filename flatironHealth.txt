@@ -1,0 +1,55 @@
+Details about every single project I want to discuss
+
+
+My mentality in taking the job and why I would like the job:
+
+
+CAP theorem:
+consistency - every read receives the most recent write or error
+availability - every request receives a response no matter if it the latest information
+partition tolerance
+
+Regarding database transactions
+ACID - RDBMS select consistency over availability; noSQL typically selects availability over consistency
+Atomicity
+Consistency
+Isolation
+Durability
+
+Mantra/slogan: "if we don't do it, no one else will"
+
+Why are you looking to make a change/shift? I appreciate the opportunity the position provides: to work in a data centric firm where SME knowledge and expansive networks are leveraged to create insights and repositories that faciliate progress and constructive knowledge. I'm eager to work for a firm with a flatter infrastructure and malleable data infrastructure and big data. I'm also keenly aware of the siloed nature of health record and studies, and the benfit to biostatistics from having larger datasets with more samples. A lot of great advances and discoveries can be uncovered by these datsets.
+
+What are some interesting problems you have solved?
+Work related:
+a) categorical problems related to triple net leases 
+ - previous method: manual, binary with no associated probability of confidence
+ - poured over multiple datasets, cleaned the dataset as much as possible (ensured all input observations were present and logical)  to create and calculate input variables,  ran several model permutations, built and applied an accuracy application; performed exhaustive diagnostics to check leverage, etc 
+b) refactored the districts project to a quantitative analysis and data-driven process and criteria: 
+ - gathered and transformed data from disparate datasets employing SQL, python and R to calculate, transform and filter data to arrive at quantitative inputs such as building make-up, volatility in reported NOI, building type, presence of an alteration/demolition, aggregated everything to the boro level, then applied an algorithm to optimize district sizes to ensure equitability, and full coverage of work
+
+Campaign related:
+a) A normalized repository of voter and geo data
+b) geo and voter queries
+c) identify likely voters
+d) data migration across multiple databases
+
+My questions
+
+Technical -
+a) Which areas in your codebase are developed and portable across clients, and what requires ground up development and personalization for each project?
+b) What is the impact of a data anomaly? Anomalies can take the form of unforeseen data structure changes including names of columns, data types, API changes, empty datasets, empty requests; where do the safeguards lie: API consumption, Flatiron database
+c) Does the firm value consistency, availability or partition tolerance? - Look up CAP theorem
+
+Day-to-day -
+a) What is the proportional split of task category: project management, presentation, discussion with internal and external?
+b) what is the ecosystem and elements of the stack which members of team interact?
+
+Team -
+a) at the political campaign at which I worked, I developed code to query, cleanse, geocode and store voter data that benefited from multiple controllers deploying the code online. The campaign manager green lit the project and allocated resources to me in the form of volunteer programmers. How are projects delegated and do you make resources available for ideas that benefit from collaboration?
+
+
+CASE statements - facilitate refactoring: when -- then -- else -- end as --
+resource: https://community.modeanalytics.com/sql/tutorial/sql-case/
+handling null values
+ifnull() function: IFNULL(UnitsOnOrder,0)
